@@ -1,0 +1,98 @@
+/* YourComponent.css */
+
+body {
+    background-color: lightgreen;
+    display: flex;
+  }
+  
+  h1 {
+    background-color: brown;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAva79OT_Yvs84eOX9cimnFLvSMwrwP4x2iA&usqp=CAU);
+    background-clip: clip;
+    -webkit-background-clip: text;
+    background-size: cover;
+    color: transparent;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    border: 2px solid greenyellow;
+    width: 50%;
+    margin: auto;
+
+  }
+  
+  .card {
+    list-style: none;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+  }
+  
+  .card:nth-child(1) {
+    background-color: #4CAF50;
+  }
+  
+  .card:nth-child(2) {
+    background-color: lightcoral;
+  }
+  
+  .card:nth-child(3) {
+    background-color: #d0c247;
+  }
+  
+  .card:nth-child(4) {
+    background-color: lightsalmon;
+  }
+  
+  .card:nth-child(5) {
+    background-color: #FFC107;
+  }
+  
+  .card:nth-child(6) {
+    background-color: #FF9800;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px yellowgreen ,0px 0px 20px green,0px 0px 90px darkgreen;
+    /* box-shadow: 0px 0px 5px darkred ,0px 0px 20px green,0px 0px 90px darkred; */
+    border-radius: 30px;
+  }
+  
+  .card__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card__inner {
+    text-align: center;
+  }
+  
+  .card__name {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    font-family: -webkit-body;
+  }
+  
+  .card__total {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .card__small {
+    font-size: 1.8rem;
+    color: white;
+  }
+  
