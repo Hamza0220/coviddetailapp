@@ -9,7 +9,7 @@ try {
     console.log(res);
    const actualData = await res.json();
    console.log("actual data", actualData.statewise[0]);
-   setData(actualData.statewise[0]);
+   setData(actualData.statewise[3]);
 } catch (error) {
     console.log("error",error)
 }

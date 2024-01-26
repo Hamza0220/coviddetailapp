@@ -38,7 +38,10 @@ body {
     flex-wrap: wrap;
     float: left;
   }
-  
+  @media (max-width: 320px) { /* Adjust breakpoint as needed for mobile view */
+    .card {
+width: 50%;
+    }}
   .card:nth-child(1) {
     background-color: #4CAF50;
   }
