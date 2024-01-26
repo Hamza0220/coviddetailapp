@@ -33,7 +33,7 @@ try {
     <li className='card'>
         <div className="card__main">
             <div className="card__inner">
-                <p className="card__name"> <span className>OUR</span> COUNTRY</p>
+                <p className="card__name"> <span className></span> COUNTRY</p>
                 <p className='card__total card__small'>PAKISTAN</p>
 
             </div>
